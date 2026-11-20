@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2239">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' blob:; img-src 'self' data:">
+  <title>Sèche & Tunisie</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%AA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="gate">
+    <form id="gate" class="card gate-card" autocomplete="off">
+      <div class="big" aria-hidden="true">🌴</div>
+      <h1>Sèche <b>&amp;</b> Tunisie</h1>
+      <p class="note">Accès privé. Entre le mot de passe pour continuer.</p>
+      <label>Mot de passe
+        <input type="password" id="pw" autocomplete="current-password" required>
+      </label>
+      <button class="btn" type="submit">Déverrouiller</button>
+      <p id="err" class="gate-err" role="alert"></p>
+    </form>
+    <noscript><p class="note">JavaScript est nécessaire pour ouvrir ce site.</p></noscript>
+  </main>
+  <script src="js/gate.js"></script>
+</body>
+</html>
